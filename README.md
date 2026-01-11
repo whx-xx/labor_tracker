@@ -1,16 +1,30 @@
-# labor_tracker
+没问题，这就为你准备一段**更接地气、更实在**的简介。你可以直接把它贴在 GitHub 的 `README.md` 里，或者发给想用这个 App 的朋友。
 
-A new Flutter project.
+---
 
-## Getting Started
+## 🛠️ 工地记账通 (LaborTracker)
 
-This project is a starting point for a Flutter application.
+这是一款专门为工友们打造的**安卓手机 App**。界面简单，没有花里胡哨的东西，最重要的是**完全无广告、不联网**，数据全存在你自己手机里。
 
-A few resources to get you started if this is your first Flutter project:
+### **主要功能：**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **✅ 自由建工地**：可以同时记好几个工地。每个工地的规矩不一样？没事，每个项目都能单独设置。
+* **⚖️ 算账更灵活**：
+* **定标准**：自己定一天干几个小时算“一个工”。
+* **算加班**：支持两种加班算法。可以选加班一小时给多少钱，也可以选加班几个小时折算成“一个工”。
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+* **📅 日历对账单**：打开就是日历。哪天干了活，日期下面直接显示工时和工钱。点一下日期就能记账或改账。
+* **输入法友好**：填个时间就能自动算出今天挣了多少钱，备注里还能记下“借支”或“发工资”等信息。
+* **🚫 绿色无广告**：安安静静记账，没有烦人的弹窗广告，不偷流量，不看隐私。
+
+---
+
+### **如何获取安装包？**
+
+1. 在项目根目录下运行 `flutter build apk --release`。
+2. 在 `build/app/outputs/flutter-apk/` 目录下找到 `app-release.apk`。
+3. 发到手机上，安装即可使用（安装前请先卸载旧版本）。
+
+---
+>>或者直接下载release的安装包
